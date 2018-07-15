@@ -4,16 +4,19 @@
         <title>Cristolândia Masculina em Porto Seguro</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
     </head>
     <body>
         <header class="header">
             <?php include("includes/header.inc"); ?>
         </header>
+
         <section id="home">
             <div class="box back">
                 <div class="one">
-                    <h1>Cristolândia Masculina <br> em Porto Seguro - Ba</h1>
-                    <h2>Inauguração: 18/8/18</h2>
+                    <h1>Cristolândia Masculina em Porto Seguro - Ba</h1>
+                    <div class="line" id="line-title"></div>
+                    <div class="countdown styled"></div>
                 </div>
             </div>
         </section>
@@ -28,6 +31,7 @@
                 </div>
             </div>
         </section>
+
         <section id="pillars">
             <div class="box">
                 <div class="box-child" id="inclusion">
@@ -92,7 +96,7 @@
                         </p>
                     </div>
                 </div>
-              
+
             </div>
         </section>
 
@@ -105,6 +109,7 @@
         </footer>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://web.crea.acsta.net/rep_dif/Smart/Warner/BatmanVsSuperman/Arrobas-250/Contagem/dest/jquery.countdown.js"></script>
     <script src="../assets/js/javascript.js"></script>
     <script src="../assets/js/horizon-swiper.js">
         $('.horizon-swiper').horizonSwiper();
