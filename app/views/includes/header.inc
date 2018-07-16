@@ -1,14 +1,14 @@
 <nav id="navigation">
-	<a href="#home">
+	<a href="index.php">
 		<img src="../assets/img/logombc.png">
 	</a>
 	<label for="toggle">&#9776;</label>
 	<input type="checkbox" id="toggle">
     <ul>
-        <a href="#home"><li>Início</li></a>
-        <a href="#about"><li>Sobre</li></a>
-        <a href="#helpers"><li>Parceiros</li></a>
-        <a href="#contact-us"><li>Contate-nos</li></a>
+        <a href="#home" class="scrollSuave"><li>Início</li></a>
+        <a href="#about" class="scrollSuave"><li>Sobre nós</li></a>
+        <!-- <a href="#helpers" class="scrollSuave"><li>Parceiros</li></a> -->
+        <a href="#contact-us" class="scrollSuave"><li>Contate-nos</li></a>
     </ul>
 		<button type="button" name="cta" id="help-us">
 				Faça Parte!

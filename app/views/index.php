@@ -37,7 +37,7 @@
                         Palavra de Deus, reparando laços familiares, dando suporte psicológico, social e
                         reinserindo-as na sociedade, prontas para o mercado de trabalho e para gerir suas próprias
                         famílias, completamente transformados e livres das drogas. Em nove anos, já são mais de
-                        mil pessoas recuperadas conosco para a glória de Deus.
+                        mil pessoas recuperadas conosco para a glória de Deus. <a href="about.php">+ Leia mais</a>
                     </p>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                 </div>
             </section>
 
-        <section id="helpers">
+        <!-- <section id="helpers">
             <h2>Parceiros</h2>
             <div class="box horizon-swiper">
                 <div class="helper horizon-item">
@@ -123,7 +123,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="contact-us">
             <form action="../controllers/message.php" method="POST">

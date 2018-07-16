@@ -519,7 +519,7 @@
 
 /* CONTATO */
 #contact-us {
-    height: 50%;
+    height: 60%;
     padding: 80px 10%;
 }
 
@@ -553,6 +553,52 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 30px;
+}
+
+/* ABOUTPAGE */
+
+#about-page {
+    margin-top: 80px;
+    min-height: 100%;
+}
+
+#about-page .description {
+    line-height: 25px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: justify;
+    width: 80%;
+}
+
+#about-page .description h2, h3 {
+    font-weight: bold;
+}
+
+#about-page .img-about {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+#about-page #first {
+    background-image: url(../img/abrantes.jpg);
+}
+
+#about-page #second {
+    background-image: url(../img/acampamento3.jpg);
+}
+
+#about-page #third {
+    background-image: url(../img/acampamento6.jpg);
+}
+
+#about-page h2 {
+    margin-bottom: 30px;
+    margin-top: 100px;
 }
 
 /*FOOTER*/
