@@ -7,8 +7,8 @@
     <ul>
         <a href="#home"><li>Início</li></a>
         <a href="#about"><li>Sobre</li></a>
-        <a href="#speakers"><li>Parceiros</li></a>
-        <a href="#schedule"><li>Contate-nos</li></a>
+        <a href="#helpers"><li>Parceiros</li></a>
+        <a href="#contact-us"><li>Contate-nos</li></a>
     </ul>
 		<button type="button" name="cta" id="help-us">
 				Faça Parte!
