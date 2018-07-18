@@ -616,12 +616,21 @@
     width: 80%;
 }
 
+#helpus-page .description .box-text {
+    border-top: 2px solid #515151;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 90%;
+}
+
 #helpus-page .description p {
+    color: #424242;
     margin-bottom: 60px;
 }
 
 #helpus-page .description h2 {
     float: none;
+    padding: 30px;
 }
 
 #helpus-page .description h2, h3 {
