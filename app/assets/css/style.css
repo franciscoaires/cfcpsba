@@ -37,7 +37,7 @@
     height: 80px;
     padding: 13px 0px 0 22px;
     text-align: center;
-    width: 200px;
+    width: 195px;
 }
 
 .header #navigation .logo:hover {
@@ -248,7 +248,7 @@
 }
 
 #about #img-about {
-    background-image: url("../img/acampamento4.jpg");
+    background-image: url("../img/ramon.png");
     background-size: cover;
     background-position: center;
     height: 100%;
