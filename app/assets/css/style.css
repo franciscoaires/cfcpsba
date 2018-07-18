@@ -601,6 +601,73 @@
     margin-top: 100px;
 }
 
+/* helpuspage */
+
+#helpus-page {
+    margin-top: 80px;
+    min-height: 100%;
+}
+
+#helpus-page .description {
+    line-height: 25px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: justify;
+    width: 80%;
+}
+
+#helpus-page .description p {
+    margin-bottom: 60px;
+}
+
+#helpus-page .description h2 {
+    float: none;
+}
+
+#helpus-page .description h2, h3 {
+    font-weight: bold;
+}
+
+#helpus-page .img-helpus {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+#helpus-page #first {
+    background-image: url(../img/pray.jpg);
+}
+
+#helpus-page #second {
+    background-image: url(../img/pambrasil.jpg);
+}
+
+#helpus-page #third {
+    background-image: url(../img/radicalbrasil.png);
+    height: 110px;
+    margin-top: 50px;
+}
+
+#helpus-page h2 {
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 690px) {
+    #helpus-page .img-helpus {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
 /*FOOTER*/
 
 .footer {
