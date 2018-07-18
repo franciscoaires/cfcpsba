@@ -73,7 +73,7 @@
 
 .header label {
     margin: 7px;
-    font-size: 46px;
+    font-size: 25px;
     line-height: 70px;
     display: none;
 }
@@ -697,12 +697,48 @@
 
 /*FOOTER*/
 
-.footer {
-    background-color: #000;
-    padding: 120px;
+.foot {
+    background-color: #46953A;
+    color: #FFF;
+    padding: 50px 40px;
 }
 
-.footer h2 {
-    color: #FFF;
+.foot #foot-superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#foot-superior .content-inner {
+    height: 100%;
+    font-size: 13px;
+    min-width: 277px;
     text-align: center;
+    width: calc(100%/3);
+}
+
+#foot-superior .content-inner .socialmedia {
+    font-size: 22px;
+    padding: 5px;
+}
+
+#foot-superior .content-inner .socialmedia:hover {
+    color: #333;
+}
+
+#foot-superior .content-inner a:link, a:visited {
+    color: #FFF;
+}
+
+.copyright {
+    background-color: #000;
+    color: #FFF;
+    height: 60px;
+    font-size: 12px;
+}
+
+.copyright p {
+    padding: 20px 0 0 40px;
 }
