@@ -54,7 +54,7 @@
                     </div>
                     <div class="little-box" id="congressmen">
                         <i class="fa fa-users" aria-hidden="true"></i>
-                        <h3>7 acolhidos</h3>
+                        <h3>10 acolhidos</h3>
                     </div>
                     <div class="little-box" id="ic-speaker">
                         <i class="fa fa-child" aria-hidden="true"></i>
@@ -98,7 +98,7 @@
             </section>
 
         <section id="team">
-            <h2>Equipe</h2>
+            <h2>Time Cristolândia Porto Seguro!</h2>
             <div class="team-content">
               <div class="box-team">
                   <div class="team-pic">

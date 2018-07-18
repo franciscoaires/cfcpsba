@@ -363,6 +363,7 @@
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
+    padding-bottom: 40px;
     padding-top: 0;
 }
 
@@ -399,6 +400,7 @@
 }
 
 #pillars .box-child p {
+    color: #424242;
     font-size: 14px;
     text-indent: 0px;
     text-align: center;
@@ -416,7 +418,11 @@
 /*TEAM*/
 
 #team {
-    padding: 30px;
+    padding: 50px;
+}
+
+#team h2 {
+    padding-bottom: 40px;
 }
 
 #team .team-content {
@@ -428,10 +434,15 @@
 
 #team .box-team {
     background-color: #F0F0F0;
-    box-shadow: 4px 5px 8px;
+    box-shadow: 4px 5px 8px #000;
     height: 260px;
     margin: 30px 20px;
     width: 150px;
+}
+
+#team .box-team:hover {
+    background-color: #46953A;
+    color: #FFF;
 }
 
 #team .team-pic img {
@@ -452,7 +463,7 @@
 }
 
 /* CONTATO */
-#contact-us {
+/* #contact-us {
     height: 60%;
     padding: 80px 10%;
 }
@@ -487,7 +498,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 30px;
-}
+} */
 
 /* ABOUTPAGE */
 
@@ -645,7 +656,7 @@
 }
 
 #foot-superior .content-inner a:link, a:visited {
-    color: #FFF;
+    color: #424242;
 }
 
 .copyright {
