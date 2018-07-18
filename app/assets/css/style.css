@@ -1,5 +1,5 @@
 *{
-    font-family: 'Realeway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-style: normal;
     margin: 0;
@@ -83,9 +83,9 @@
 }
 
 #help-us {
-    border-radius: 35px;
+    background-color: #e1e1e180;
+    border-radius: 5px;
     border-style: none;
-    box-shadow: 2px 5px 3px #888;
     cursor: pointer;
     float: right;
     font-size: 14px;
@@ -99,7 +99,7 @@
     color: #FFF;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 460px) {
     #help-us {
         display: none;
     }
@@ -273,6 +273,7 @@
 }
 
 #about .description p {
+    color: #424242;
     line-height: 150%;
     text-align: justify;
     text-indent: 40px;
@@ -300,16 +301,67 @@
     }
 }
 
+/*RESUMO*/
+#resume {
+    background-attachment: fixed;
+    background-image: url('../img/coral.png') ;
+    background-size: cover;
+    box-sizing: border-box;
+    color: #FFF;
+    width: 100%;
+}
+
+#resume .back {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+#resume .box {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 70px 0;
+    width: 100%;
+}
+
+#resume .little-box {
+    box-sizing: border-box;
+    margin-top: 30px;
+    min-width: 210px;
+    padding: 0 27px;
+    text-align: center;
+    width: calc(100%/4);
+}
+
+#resume .little-box i {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  #resume .little-box {
+      width: calc(100%/2);
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #resume .little-box {
+      margin-top: 50px;
+  }
+}
+
 /*PILARRES*/
 
 #pillars {
-    height: 50%;
+    padding: 40px;
 }
 
 #pillars .box {
+    border-bottom: 2px solid #000;
     display: flex;
     flex-flow: wrap row;
-    height: 100%;
     justify-content: center;
     padding-top: 0;
 }
@@ -320,9 +372,10 @@
     flex-flow: nowrap column;
     height: 100%;
     justify-content: center;
+    min-width: 210px;
     padding: 15px;
     text-align: center;
-    width: 30%;
+    width: calc(100%/3);
 }
 
 #pillars .box-i {
@@ -360,179 +413,42 @@
     color: #FFF;
 }
 
-@media only screen and (max-width: 690px) {
-    #pillars {
-        background-color: #2ecc71;
-        height: 100%;
-    }
+/*TEAM*/
 
-    #pillars .box-child {
-        height: 50%;
-        width: 200px;
-    }
+#team {
+    padding: 30px;
 }
 
-@media only screen and (max-width: 400px) {
-    #pillars {
-        height: 150%;
-    }
-
-    #pillars .box-child {
-        height: 25%;
-        margin-top: 18px;
-        width: 100%;
-    }
-
-    #pillars .box-child i {
-        font-size: 60px;
-    }
-
-    #pillars .box-i {
-        height: 100px;
-        padding: 15px;
-        width: 100px;
-    }
-
-    #pillars .box-child:hover > .box-i {
-        border: 2px solid #FFF;
-    }
-}
-
-/*RESUMO*/
-#resume {
-    background-attachment: fixed;
-    background-image: url('../img/coral.png') ;
-    background-size: cover;
-    box-sizing: border-box;
-    color: #FFF;
-    display: inline-block;
-    height: 50%;
-    width: 100%;
-}
-
-#resume .box {
-    box-sizing: border-box;
+#team .team-content {
     display: flex;
-    height: 100%;
-    padding: 7%;
-    width: 100%;
-}
-
-#resume .back {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-    width: 100%;
-}
-
-#resume .little-box {
-    display: inline-block;
-    float: left;
-    height: 100%;
-    margin-right: 2%;
-    margin-left: 2%;
-    padding: 0 27px;
-    text-align: center;
-    width: 15%;
-}
-
-#resume .little-box i {
-    font-size: 70px;
-    margin-bottom: 20px;
-}
-
-#resume #clock-o {
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 0;
-}
-
-@media only screen and (max-width: 690px) {
-    #resume {
-        height: 100%;
-    }
-
-    #resume .box {
-        display: inline-block;
-        padding: 160px 10px;
-    }
-
-    #resume .little-box {
-        float: none;
-        height: 200px;
-        width: 35%;
-    }
-
-    #resume #date {
-        float: left;
-    }
-
-    #resume #congressmen {
-        float: right;
-    }
-
-    #resume #ic-speaker {
-        float: left;
-    }
-
-    #resumo #clock-o {
-        float: right;
-        margin-right: 2%;
-        margin-left: 2%;
-        padding: 0 27px;
-    }
-}
-
-
-/*PARCEIROS*/
-
-#helpers {
-    background-color: #F3F3F3;
-    border-top: 4px solid #548B54;
-    height: 50%;
-}
-
-#helpers h2 {
-    margin: 0;
-    margin-left: 40px;
-    padding: 30px 0;
-}
-
-#helpers .box {
-    align-content: flex-start;
-    display: flex;
-    flex-flow: row wrap;
-    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
 }
 
-#helpers .helper {
-    background-color: #FFF;
-    box-shadow: 3px 3px 9px #000;
-    flex-basis: 0;
-    height: 100px;
-    margin: 20px 3px;
-    padding: 0px;
-    width: 100px;
+#team .box-team {
+    background-color: #F0F0F0;
+    box-shadow: 4px 5px 8px;
+    height: 260px;
+    margin: 30px 20px;
+    width: 150px;
 }
 
-#helpers .helper-pic img {
-    height: 100px;
-    width: 100px;
+#team .team-pic img {
+    height: 150px;
+    width: 150px;
 }
 
-#helpers .helper-text {
-    margin: 10px;
-    text-align: center;
+#team .team-text {
+    padding: 20px 10px;
 }
 
-#helpers h3 {
-    margin: 10px;
-    text-align: center;
+#team .team-text h3 {
+    font-size: 15px;
 }
 
-#helpers .helper:hover {
-    background-color: #F3F0F9;
+#team .team-text p {
+    font-size: 12px;
 }
 
 /* CONTATO */

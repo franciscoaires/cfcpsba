@@ -5,7 +5,8 @@
         <title>Cristolândia Masculina em Porto Seguro</title>
         <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto|Open+Sans" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
     </head>
     <body>
         <header class="header">
@@ -96,36 +97,63 @@
                 </div>
             </section>
 
-        <!-- <section id="helpers">
-            <h2>Parceiros</h2>
-            <div class="box horizon-swiper">
-                <div class="helper horizon-item">
-                    <div class="helper-pic">
-                        <img src="../assets/img/alda.jpg">
+        <section id="team">
+            <h2>Equipe</h2>
+            <div class="team-content">
+              <div class="box-team">
+                  <div class="team-pic">
+                      <img src="../assets/img/who.jpg">
+                  </div>
+                  <div class="team-text">
+                      <h3>Pr Raphael Scotelaro</h3>
+                      <p>Coordenador Estadual</p>
+                  </div>
+              </div>
+
+              <div class="box-team">
+                  <div class="team-pic">
+                      <img src="../assets/img/who.jpg">
+                  </div>
+                  <div class="team-text">
+                      <h3>Joice Scotelaro</h3>
+                      <p>Coordenadora Estadual</p>
+                  </div>
+              </div>
+
+                <div class="box-team">
+                    <div class="team-pic">
+                        <img src="../assets/img/francisco.png">
+                    </div>
+                    <div class="team-text">
+                        <h3>Francisco Aires</h3>
+                        <p>Missionário Radical Cristolândia</p>
                     </div>
                 </div>
 
-                <div class="helper horizon-item">
-                    <div class="helper-pic">
-                        <img src="../assets/img/alda.jpg">
+                <div class="box-team">
+                    <div class="team-pic">
+                        <img src="../assets/img/who.jpg">
+                    </div>
+                    <div class="team-text">
+                        <h3>Pedro Vilela</h3>
+                        <p>Missionário Radical Cristolândia</p>
                     </div>
                 </div>
 
-                <div class="helper horizon-item">
-                    <div class="helper-pic">
-                        <img src="../assets/img/alda.jpg">
+                <div class="box-team">
+                    <div class="team-pic">
+                        <img src="../assets/img/who.jpg">
+                    </div>
+                    <div class="team-text">
+                        <h3>Giones Falcão</h3>
+                        <p>Missionário Radical Cristolândia</p>
                     </div>
                 </div>
 
-                <div class="helper horizon-item">
-                    <div class="helper-pic">
-                        <img src="../assets/img/alda.jpg">
-                    </div>
-                </div>
             </div>
-        </section> -->
+        </section>
 
-        <section id="contact-us">
+        <!-- <section id="contact-us">
             <form action="../controllers/message.php" method="POST">
                 <fieldset>
                     <legend>Contact us</legend>
@@ -149,7 +177,7 @@
                         <input name="send" type="submit" value="Enviar" class="element" id="send">
                     </div>
                 </fieldset>
-            </form>
+            </form> -->
         </section>
 
         <footer class="footer">
@@ -159,7 +187,4 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://web.crea.acsta.net/rep_dif/Smart/Warner/BatmanVsSuperman/Arrobas-250/Contagem/dest/jquery.countdown.js"></script>
     <script src="../assets/js/javascript.js"></script>
-    <script src="../assets/js/horizon-swiper.js">
-        $('.horizon-swiper').horizonSwiper();
-    </script>
 </html>
