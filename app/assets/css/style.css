@@ -26,6 +26,24 @@
     width: 100%;
 }
 
+.header #navigation a {
+    color: #333;
+}
+
+.header #navigation .logo {
+    background-color: #46953A;
+    box-shadow: 0px 1px 3px;
+    float: left;
+    height: 80px;
+    padding: 13px 0px 0 22px;
+    text-align: center;
+    width: 200px;
+}
+
+.header #navigation .logo:hover {
+    background-color: ##46B43A;
+}
+
 .header ul {
     float: left;
     height: 100%;
@@ -42,7 +60,7 @@
 }
 
 .header li:hover {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #46953A;
     color: #000;
 }
 
@@ -77,7 +95,7 @@
 }
 
 #help-us:hover {
-    background-color: #060;
+    background-color: #46953A;
     color: #FFF;
 }
 

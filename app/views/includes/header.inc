@@ -1,6 +1,8 @@
 <nav id="navigation">
 	<a href="index.php">
-		<img src="../assets/img/logombc.png">
+			<div class="logo">
+					<img src="../assets/img/logocorretobranco.png">
+			</div>
 	</a>
 	<label for="toggle">&#9776;</label>
 	<input type="checkbox" id="toggle">
