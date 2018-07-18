@@ -79,3 +79,6 @@ $('.scrollSuave').click(function() {
     }, 500);
     return false;
 });
+
+imagem01 = new Image();
+imagem01 = "../img/5pastorrua.png";
