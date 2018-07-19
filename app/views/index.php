@@ -164,15 +164,15 @@
                         <input name="name" type="text"  class="element" required>
                     </div>
                     <div class="input">
-                        <label for="email">Email:</label>
+                        <label for="email";>Email:</label>
                         <input name="email" type="email"  class="element" required>
                     </div>
                     <div class="input">
-                        <label for="assunto">Assunto:</label>
+                        <label for="assunto";>Assunto:</label>
                         <input name="assunto" type="assunto"  class="element" required>
                     </div>
                     <div class="input">
-                        <label for="message">Message:</label>
+                        <label for="message";>Message:</label>
                         <textarea  class="element" required></textarea>
                     </div>
                     <div class="input">
@@ -183,7 +183,7 @@
         </section>
 
         <footer class="footer">
-            <?php include("includes/footer.inc"); ?>
+            <?php include("includes/footer.inc") ?>
         </footer>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

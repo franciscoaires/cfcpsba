@@ -8,7 +8,8 @@
 .header {
     background-color: #F6F7F8;
     border-bottom: 1px solid #E7E7E7;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     height: 80px;
     list-style: none;
     padding: 0 5%;
@@ -32,7 +33,8 @@
 
 .header #navigation .logo {
     background-color: #46953A;
-    box-shadow: 0px 1px 3px;
+    -webkit-box-shadow: 0px 1px 3px;
+            box-shadow: 0px 1px 3px;
     float: left;
     height: 80px;
     padding: 13px 0px 0 22px;
@@ -51,7 +53,8 @@
 }
 
 .header li {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: #333;
     display: inline-block;
     height: 100%;
@@ -158,22 +161,38 @@
 
 #home .back {
     background-color: rgba(131, 167, 35, 0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: column wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
     height: 100%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 80px;
     margin: 0;
 }
 
 #home .one {
-    flex-flow: nowrap column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: nowrap column;
+            flex-flow: nowrap column;
     float: center;
     height: 100%;
-    justify-content: center;
-    box-sizing: border-box;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     margin: 0 auto;
     text-align: center;
     width: 80%;
@@ -240,9 +259,15 @@
 }
 
 #about .box {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: wrap column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: wrap column;
+            flex-flow: wrap column;
     height: 100%;
     width: 100%;
 }
@@ -256,12 +281,20 @@
 }
 
 #about .description {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: nowrap column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: nowrap column;
+            flex-flow: nowrap column;
     float: right;
     height: 100%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0 auto;
     padding: 80px;
     width: 70%;
@@ -306,7 +339,8 @@
     background-attachment: fixed;
     background-image: url('../img/coral.png') ;
     background-size: cover;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     color: #FFF;
     width: 100%;
 }
@@ -317,17 +351,27 @@
 }
 
 #resume .box {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 70px 0;
     width: 100%;
 }
 
 #resume .little-box {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin-top: 30px;
     min-width: 210px;
     padding: 0 27px;
@@ -360,19 +404,34 @@
 
 #pillars .box {
     border-bottom: 2px solid #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: wrap row;
+            flex-flow: wrap row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 40px;
     padding-top: 0;
 }
 
 #pillars .box-child {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: nowrap column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: nowrap column;
+            flex-flow: nowrap column;
     height: 100%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     min-width: 210px;
     padding: 15px;
     text-align: center;
@@ -381,7 +440,8 @@
 
 #pillars .box-i {
     border-radius: 64px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     height: 130px;
     margin: 0 auto;
     padding: 16px;
@@ -426,15 +486,24 @@
 }
 
 #team .team-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 #team .box-team {
     background-color: #F0F0F0;
-    box-shadow: 4px 5px 8px #000;
+    -webkit-box-shadow: 4px 5px 8px #000;
+            box-shadow: 4px 5px 8px #000;
     height: 260px;
     margin: 30px 20px;
     width: 150px;
@@ -631,10 +700,18 @@
 }
 
 .foot #foot-superior {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%;
 }
 
