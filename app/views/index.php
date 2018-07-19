@@ -8,7 +8,6 @@
         <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto|Open+Sans" rel="stylesheet">
         <link rel="shortcut icon" href="../assets/img/logo.ico" />
         <meta name="viewport" content="width=device-width">
-        <!-- <meta name="viewport" content="height=device-height"> -->
     </head>
     <body>
         <header class="header">

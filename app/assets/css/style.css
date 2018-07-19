@@ -238,7 +238,7 @@
     }
 
     #home {
-        height: 150%;
+        height: 160%;
     }
 
     #home h1 {
@@ -716,7 +716,6 @@
 }
 
 #foot-superior .content-inner {
-    height: 100%;
     font-size: 13px;
     min-width: 277px;
     text-align: center;
