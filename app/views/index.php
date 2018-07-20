@@ -128,6 +128,10 @@
                     <div class="team-text">
                         <h3>Francisco Aires</h3>
                         <p>Missionário Radical Cristolândia</p>
+                        <br>
+                        <a href="https://www.facebook.com/Francisco.Airesjr"><i class="socialmedia fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/francisco.airesjr"><i class="socialmedia fab fa-instagram"></i></a>
+                        <a href="mailto:francisco.airesjr@gmail.com"><i class="socialmedia fas fa-envelope"></i></a>
                     </div>
                 </div>
 
@@ -138,16 +142,23 @@
                     <div class="team-text">
                         <h3>Pedro Vilela</h3>
                         <p>Missionário Radical Cristolândia</p>
+                        <br>
+                        <a href="https://www.twitter.com/Vilela_Peu"><i class="socialmedia fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/peu_vilela"><i class="socialmedia fab fa-instagram"></i></a>
+                        <a href="mailto:pedroalvilela@gmail.com"><i class="socialmedia fas fa-envelope"></i></a>
                     </div>
                 </div>
 
                 <div class="box-team">
                     <div class="team-pic">
-                        <img src="../assets/img/who.jpg">
+                        <img src="../assets/img/gil.jpg">
                     </div>
                     <div class="team-text">
                         <h3>Giones Falcão</h3>
                         <p>Missionário Radical Cristolândia</p>
+                        <br>
+                        <a href="https://www.facebook.com/GionesFalcão"><i class="socialmedia fab fa-facebook-square"></i></a>
+                        <a href="mailto:giofalcao50@gmail.com"><i class="socialmedia fas fa-envelope"></i></a>
                     </div>
                 </div>
 

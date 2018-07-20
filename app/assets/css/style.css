@@ -480,6 +480,14 @@
     padding-bottom: 40px;
 }
 
+#team a:link, a:visited {
+    color: #000;
+}
+
+#team a:hover {
+    color: #FFF;
+}
+
 #team .team-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -509,9 +517,14 @@
     color: #FFF;
 }
 
-#team .team-pic img {
+#team .team-pic {
     height: 150px;
+    overflow: hidden;
     width: 150px;
+}
+
+#team .team-pic img {
+    width: inherit;
 }
 
 #team .team-text {
