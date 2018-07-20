@@ -1,14 +1,4 @@
 $(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
-});
-
-$(function() {
     var endDate = "august 18, 2018 10:00:00";
     $('.countdown.simple').countdown({ date: endDate });
 
@@ -78,4 +68,15 @@ $('.scrollSuave').click(function() {
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
     return false;
+});
+
+var lastScrollTop = 0;
+$(window).scroll(function(event) {
+   var st = $(this).scrollTop();
+   if (st <= lastScrollTop) {
+      $('.header').slideDown("fast");
+   } else {
+      $('.header').slideUp("fast");
+   }
+   lastScrollTop = st;
 });

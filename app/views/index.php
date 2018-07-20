@@ -133,7 +133,7 @@
 
                 <div class="box-team">
                     <div class="team-pic">
-                        <img src="../assets/img/who.jpg">
+                        <img src="../assets/img/pedro.jpg">
                     </div>
                     <div class="team-text">
                         <h3>Pedro Vilela</h3>
