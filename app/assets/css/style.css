@@ -232,7 +232,7 @@
     }
 }
 
-@media only screen and (max-height: 500px) {
+@media only screen and (max-height: 600px) {
     #home .box {
         padding-top: 5%;
     }
@@ -247,6 +247,12 @@
 
     #home .countdown {
       font-size: 30px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    #home {
+        /* height: 160%; */
     }
 }
 

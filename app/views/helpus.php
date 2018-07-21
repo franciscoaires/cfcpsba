@@ -70,4 +70,7 @@
             <?php include("includes/footer.inc"); ?>
         </footer>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://web.crea.acsta.net/rep_dif/Smart/Warner/BatmanVsSuperman/Arrobas-250/Contagem/dest/jquery.countdown.js"></script>
+    <script src="../assets/js/javascript.js"></script>
 </html>

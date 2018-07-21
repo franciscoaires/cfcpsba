@@ -101,23 +101,16 @@
         <section id="team">
             <h2>Time Cristolândia Porto Seguro!</h2>
             <div class="team-content">
-              <div class="box-team">
-                  <div class="team-pic">
-                      <img src="../assets/img/who.jpg">
-                  </div>
-                  <div class="team-text">
-                      <h3>Pr Raphael Scotelaro</h3>
-                      <p>Coordenador Estadual</p>
-                  </div>
-              </div>
 
               <div class="box-team">
                   <div class="team-pic">
-                      <img src="../assets/img/who.jpg">
+                      <img src="../assets/img/prejoice.jpg">
                   </div>
                   <div class="team-text">
-                      <h3>Joice Scotelaro</h3>
-                      <p>Coordenadora Estadual</p>
+                      <h3>Pr Raphael e Joice Scotelaro</h3>
+                      <p>Coordenadores Estaduais</p>
+                      <a href="https://www.instagram.com/joicescotelaro/"><i class="socialmedia fab fa-instagram"></i></a>
+                      <a href="mailto:joice.coriolaro@missoesnacionais.org.br"><i class="socialmedia fas fa-envelope"></i></a>
                   </div>
               </div>
 
