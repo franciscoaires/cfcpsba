@@ -51,11 +51,11 @@
                 <div class="box">
                     <div class="little-box" id="date">
                         <i class="fa fa-calendar" aria-hidden="true"></i>
-                        <h3>4 meses</h3>
+                        <h3>6 meses</h3>
                     </div>
                     <div class="little-box" id="congressmen">
                         <i class="fa fa-users" aria-hidden="true"></i>
-                        <h3>10 acolhidos</h3>
+                        <h3>17 acolhidos</h3>
                     </div>
                     <div class="little-box" id="ic-speaker">
                         <i class="fa fa-child" aria-hidden="true"></i>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="little-box" id="time">
                         <i class="fa fa-hand-holding-heart" aria-hidden="true"></i>
-                        <h3>90% de parcerias fixas</h3>
+                        <h3>80% de parcerias fixas</h3>
                     </div>
                 </div>
             </div>
