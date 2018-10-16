@@ -1,82 +1,40 @@
-$(function() {
-    var endDate = "august 18, 2018 10:00:00";
-    $('.countdown.simple').countdown({ date: endDate });
+var div = document.getElementById('log');
+var textos = ['Esperança para uma nova vida','Renovação','Transformação'];
 
-    $('.countdown.styled').countdown({
-        date: endDate,
-        render: function(data) {
-            $(this.el).html("<div>" + this.leadingZeros(data.days, 2) + " dias, <br>"
-            + this.leadingZeros(data.hours, 2) + "h:"
-            + this.leadingZeros(data.min, 2) + ":"
-            + this.leadingZeros(data.sec, 2) + "</div>");
-            if(this.leadingZeros(data.days, 2)=="00" && this.leadingZeros(data.hours, 2)=="00" && this.leadingZeros(data.min, 2)=="00" && this.leadingZeros(data.sec, 2) == "00") {
-                alert("É Hoje!");
-            }
+function escrever(str, done) {
+    var char = str.split('').reverse();
+    var typer = setInterval(function() {
+        if (!char.length) {
+            clearInterval(typer);
+            return setTimeout(done, 500); // só para esperar um bocadinho
         }
-     });
+        var next = char.pop();
+        div.innerHTML += next;
+    }, 100);
+}
 
-     $('.countdown.callback').countdown({
-        date: +(new Date) + 10000,
-        render: function(data) {
-            $(this.el).text(this.leadingZeros(data.sec, 2) + " sec");
-        },
-        onEnd: function() {
-            $(this.el).addClass('ended');
+function limpar(done) {
+    var char = div.innerHTML;
+    var nr = char.length;
+    var typer = setInterval(function() {
+        if (nr-- == 0) {
+            clearInterval(typer);
+            return done();
         }
-     }).on("click", function() {
-        $(this).removeClass('ended').data('countdown').update(+(new Date) + 10000).start();
-     });
+        div.innerHTML = char.slice(0, nr);
+    }, 100);
+}
 
-     // End time for diff purposes
-     var endTimeDiff = new Date().getTime() + 15000;
-     // This is server's time
-     var timeThere = new Date();
-     // This is client's time (delayed)
-     var timeHere = new Date(timeThere.getTime() - 5434);
-     // Get the difference between client time and server time
-     var diff_ms = timeHere.getTime() - timeThere.getTime();
-     // Get the rounded difference in seconds
-     var diff_s = diff_ms / 1000 | 0;
-
-     var notice = [];
-
-     notice.push('Server time: ' + timeThere.toDateString() + ' ' + timeThere.toTimeString());
-     notice.push('Your time: ' + timeHere.toDateString() + ' ' + timeHere.toTimeString());
-     notice.push('Time difference: ' + diff_s + ' seconds (' + diff_ms + ' milliseconds to be precise). Your time is a bit behind.');
-
-     $('.offset-notice').html(notice.join('<br />'));
-
-     $('.offset-server .countdown').countdown({
-        date: endTimeDiff,
-        offset: diff_s * 1000,
-        onEnd: function() {
-            $(this.el).addClass('ended');
-        }
-     });
-
-     $('.offset-client .countdown').countdown({
-        date: endTimeDiff,
-        onEnd: function() {
-            $(this.el).addClass('ended');
-        }
-    });
-});
-
-var $doc = $('html, body');
-$('.scrollSuave').click(function() {
-    $doc.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
-    return false;
-});
-
-var lastScrollTop = 0;
-$(window).scroll(function(event) {
-   var st = $(this).scrollTop();
-   if (st <= lastScrollTop) {
-      $('.header').slideDown("fast");
-   } else {
-      $('.header').slideUp("fast");
-   }
-   lastScrollTop = st;
-});
+function rodape(conteudos, el) {
+    var atual = -1;
+	function prox(cb){
+		if (atual < conteudos.length - 1) atual++;
+		else atual = 0;
+		var str = conteudos[atual];
+		escrever(str, function(){
+			limpar(prox);
+		});
+	}
+	prox(prox);
+}
+rodape(textos);

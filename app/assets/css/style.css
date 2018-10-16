@@ -215,10 +215,10 @@
     width: 50%;
 }
 
-#home .countdown {
+#home #log, .log {
     color: #FFF;
     font-family: "Oswald";
-    font-size: 45px;
+    font-size: 34px;
     text-transform: uppercase;
 }
 
@@ -227,8 +227,8 @@
         font-size: 40px;
     }
 
-    #home .countdown {
-      font-size: 30px;
+    #home #log, .log {
+      font-size: 20px;
     }
 }
 
@@ -245,14 +245,8 @@
         font-size: 40px;
     }
 
-    #home .countdown {
-      font-size: 30px;
-    }
-}
-
-@media only screen and (max-height: 600px) {
-    #home {
-        /* height: 160%; */
+    #home #log, .log {
+      font-size: 20px;
     }
 }
 

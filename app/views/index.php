@@ -19,7 +19,7 @@
                 <div class="one">
                     <h1>Cristolândia Masculina em Porto Seguro - Ba</h1>
                     <div class="line" id="line-title"></div>
-                    <div class="countdown styled"></div>
+                    <p class="log">Um Lugar de <div id="log"></div></p>
                 </div>
             </div>
         </section>
