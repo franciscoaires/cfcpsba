@@ -59,7 +59,7 @@
                         um email ou ligue pra a gente e agende um dia para você e sua caravana virem passar um dia conosco! Precisamos
                         de apoio e auxílio para caminhar diariamente com 30 homens e criar neles o caráter de Cristo! <br>
                         Além disso, se você sente um ardor missionário em seu coração, está esperando o que para ser um Radical Cristolândia?
-                        Tendo mais de 18 anos e sendo solteiro, é só se inscrever! Não fique de forma do que Deus está fazendo no Brasil!!
+                        Tendo mais de 18 anos e sendo solteiro, é só se inscrever! Não fique de fora do que Deus está fazendo no Brasil!!
                         <br> Clique <a href="https://www.radicalbrasil.org/radical-cristolandia">aqui</a> para saber mais sobre o Radical Brasil Cristolândia!
                     </p>
                     <br>

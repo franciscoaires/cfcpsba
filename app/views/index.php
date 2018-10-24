@@ -55,7 +55,7 @@
                     </div>
                     <div class="little-box" id="congressmen">
                         <i class="fa fa-users" aria-hidden="true"></i>
-                        <h3>17 acolhidos</h3>
+                        <h3>15 acolhidos</h3>
                     </div>
                     <div class="little-box" id="ic-speaker">
                         <i class="fa fa-child" aria-hidden="true"></i>
@@ -92,7 +92,7 @@
                             <i class="fas fa-lightbulb" aria-hidden="true"></i>
                         </div>
                         <h3>Inconformismo</h3>
-                        <p>Desde que saímos de nossas casas e vimos ao campo não cessamos de fulgir do comodismo.
+                        <p>Desde que saímos de nossas casas e vimos ao campo não cessamos de fugir do comodismo.
                         Nossa unidade busca a inovação e melhorar sempre, para a glória de Deus.</p>
                     </div>
                 </div>
