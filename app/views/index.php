@@ -38,7 +38,7 @@
                         delas por um período de tratamento de dois anos, desintoxicando-as, ensinando-lhes a
                         Palavra de Deus, reparando laços familiares, dando suporte psicológico, social e
                         reinserindo-as na sociedade, prontas para o mercado de trabalho e para gerir suas próprias
-                        famílias, completamente transformados e livres das drogas. Em nove anos, já são mais de
+                        famílias, completamente transformados e livres das drogas. Em dez anos, já são mais de
                         mil pessoas recuperadas conosco para a glória de Deus. <a href="about.php">+ Leia mais</a>
                     </p>
                 </div>
@@ -51,19 +51,19 @@
                 <div class="box">
                     <div class="little-box" id="date">
                         <i class="fa fa-calendar" aria-hidden="true"></i>
-                        <h3>6 meses</h3>
+                        <h3>7 meses</h3>
                     </div>
                     <div class="little-box" id="congressmen">
                         <i class="fa fa-users" aria-hidden="true"></i>
-                        <h3>15 acolhidos</h3>
+                        <h3>25 acolhidos</h3>
                     </div>
                     <div class="little-box" id="ic-speaker">
                         <i class="fa fa-child" aria-hidden="true"></i>
-                        <h3>3 missionários</h3>
+                        <h3>4 missionários</h3>
                     </div>
                     <div class="little-box" id="time">
                         <i class="fa fa-hand-holding-heart" aria-hidden="true"></i>
-                        <h3>80% de parcerias fixas</h3>
+                        <h3>60% de parcerias fixas</h3>
                     </div>
                 </div>
             </div>
@@ -120,25 +120,35 @@
                     </div>
                     <div class="team-text">
                         <h3>Francisco Aires</h3>
-                        <p>Missionário Radical Cristolândia</p>
-                        <br>
+                        <p>Missionário em Formação - Gestor da unidade</p>
+
                         <a href="https://www.facebook.com/Francisco.Airesjr"><i class="socialmedia fab fa-facebook-square"></i></a>
                         <a href="https://www.instagram.com/francisco.airesjr"><i class="socialmedia fab fa-instagram"></i></a>
-                        <a href="mailto:francisco.airesjr@gmail.com"><i class="socialmedia fas fa-envelope"></i></a>
+                        <a href="mailto:francisco.junior@missoesnacionais.org.br"><i class="socialmedia fas fa-envelope"></i></a>
                     </div>
                 </div>
 
                 <div class="box-team">
                     <div class="team-pic">
-                        <img src="../assets/img/pedro.jpg">
+                        <img src="../assets/img/Herbert.png">
                     </div>
                     <div class="team-text">
-                        <h3>Pedro Vilela</h3>
+                        <h3>Herbert Rocha</h3>
                         <p>Missionário Radical Cristolândia</p>
                         <br>
-                        <a href="https://www.twitter.com/Vilela_Peu"><i class="socialmedia fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/peu_vilela"><i class="socialmedia fab fa-instagram"></i></a>
-                        <a href="mailto:pedroalvilela@gmail.com"><i class="socialmedia fas fa-envelope"></i></a>
+                        <a href="mailto:herbert.rocha@missoesnacionais.org.br"><i class="socialmedia fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="box-team">
+                    <div class="team-pic">
+                        <img src="../assets/img/FABIO.png">
+                    </div>
+                    <div class="team-text">
+                        <h3>Fábio Teixeira</h3>
+                        <p>Missionário Radical Cristolândia</p>
+                        <br>
+                        <a href="mailto:fabio.oliveira@missoesnacionais.org.br"><i class="socialmedia fas fa-envelope"></i></a>
                     </div>
                 </div>
 
