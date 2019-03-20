@@ -38,3 +38,4 @@ function rodape(conteudos, el) {
 	prox(prox);
 }
 rodape(textos);
+// PHOTOS
